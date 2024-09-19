@@ -1,0 +1,41 @@
+
+/*********** COLORS *************/
+:root {
+    --primary-color: #000; /* Define primary color */
+    --secondary-color: lightblue; /* Define secondary color */
+    --accent-color: blue; /* Define accent color */
+    --text-color: #333; /* Define text color */
+    --excerpt-color: #555; /* Define text color */
+    --ticker-color: #444;
+    --link-color: blue; /* Define link color */
+    --gray: gray;
+    --lightgray: lightgray;
+    --white: #fff;
+    --green: green;
+    --red: red;
+  }
+
+/*********** CUSTOM STYLES *************/
+
+/**************GENERAL****************/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.25;
+    overflow-x: hidden;
+    color: var(--text-color); /* Use text color variable */
+}
+
+
+.loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+}
